@@ -8,6 +8,7 @@ body {
 .header-section {
   height: 10vh;
   width: 100vw;
+  padding-bottom: 5px;
 }
 
 .miniheader {
@@ -44,7 +45,68 @@ body {
   overflow-clip-margin: border-box;
 }
 
+.hero-section {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0 100%), url("images/hero-bg.jpg");
+  width: 100vw;
+  height: 82vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px;
+  margin-top: 50px;
+  color: #595959;
+}
+
+.primary {
+  color: #868686;
+}
+
+.secondary {
+  color: #ec5242;
+}
+
+.hero-big > p {
+  font-size: 24px;
+}
+
+.hero-big > h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.inner-hero-big-wrapper {
+  font-size: 14px;
+  border: 2px solid white;
+  padding: 4px;
+  width: 90%;
+}
+
+.inner-hero-big-wrapper2 {
+  margin-top: 60px;
+}
+
+.inner-hero-big-wrapper2 > h2 {
+  margin-block-end: 0;
+}
+
+.inner-hero-big-wrapper2 > p {
+  font-size: 14px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 @media (min-width: 768px) {
+  .header-section {
+    height: 18vh;
+  }
+
   .main-header {
     margin-right: 20vw;
   }
@@ -94,17 +156,44 @@ body {
     height: 6vh;
   }
 
-  .miniheader> ul {
+  .miniheader > ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     width: 30%;
     margin-right: 18%;
-
   }
 
-  .miniheader>ul>li>a{
+  .miniheader > ul > li > a {
     text-decoration: none;
     color: white;
+    font-size: 14px;
+  }
+
+  .hero-section-wrapper {
+    margin-left: 20vw;
+    margin-right: 30vw;
+    width: 50%;
+  }
+
+  .hero-big > p {
+    font-size: 30px;
+  }
+
+  .hero-big > h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .inner-hero-big-wrapper {
+    font-size: 16px;
+  }
+
+  .inner-hero-big-wrapper2 {
+    margin-top: 15px;
+  }
+
+  .inner-hero-big-wrapper2 > p {
+    font-size: 16px;
   }
 }
