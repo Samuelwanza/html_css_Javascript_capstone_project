@@ -36,3 +36,8 @@ const featuredSpeakers = [
     bio: "Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment",
   },
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
+  const gridContainer = document.querySelector(".grid-container");
+  var featuredSpeakers_Data_To_Use;
+});
