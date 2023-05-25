@@ -45,7 +45,7 @@ Describe between 1-3 key features of the application.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[live Project](https://samuelwanza.github.io/)
+[live Project](https://html-css-javascript-capstone-project-git-main-feature-kranko.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
