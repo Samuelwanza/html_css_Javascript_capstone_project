@@ -5,3 +5,164 @@ body {
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
+
+.about-hero-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #595959;
+}
+
+.about-hero-big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about-hero-big > h1 {
+  text-align: center;
+}
+
+.about-description {
+  background: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.about-final-wrapper {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px;
+}
+
+.about-final-wrapper > h2 {
+  font-size: 10px;
+}
+
+.partner-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.partner-title-wrapper > h3 {
+  color: #2c2c2c;
+  font-size: 30px;
+  text-align: center;
+}
+
+.partner-underline-container {
+  display: flex;
+  justify-content: center;
+}
+
+.partner-underline-item {
+  width: 30px;
+  height: 5px;
+  background: #a04038;
+  border-radius: 5px;
+}
+
+.logo-inner-info {
+  color: #838383;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-inner-logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-inner-logo > img {
+  width: 250px;
+}
+
+.footer-section {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section > img {
+  width: 200px;
+}
+
+.partners-section {
+  height: 40vh;
+  margin-top: 20px;
+  background: #414246;
+  display: block;
+}
+
+.partners-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners-wrapper > img {
+  width: 100px;
+}
+
+.mobile-menu-toggler {
+  float: right;
+  padding-top: 20px;
+  margin-right: 18px;
+}
+
+.mobile-menu-items {
+  clear: right;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.mobile-menu-items > li {
+  padding-bottom: 16px;
+}
+
+.mobile-menu-items > li > a {
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.bottom-decorator {
+  width: 120px;
+  background: black;
+  height: 4px;
+  border-radius: 5px 5px;
+  margin-top: 75vh;
+}
+
+.decorator-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .partners-section {
+    display: none;
+  }
+
+  .footer-section {
+    background: #414246;
+    color: white;
+    gap: 20px;
+  }
+
+  .about-description {
+    margin-left: 15vw;
+    margin-right: 15vh;
+  }
+}

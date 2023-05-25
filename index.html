@@ -39,7 +39,7 @@
 
         <nav class="nav-section">
           <ul>
-            <li><a class="secondary" href="">About</a></li>
+            <li><a class="secondary" href="/about.html">About</a></li>
             <li><a class="primary" href="">Program</a></li>
             <li><a class="primary" href="">Join</a></li>
             <li><a class="primary" href="">Sponsor</a></li>
@@ -51,8 +51,23 @@
         </nav>
       </div>
     </header>
+    <div class="mobile-menu" id="mymobilemenu">
+      <img
+        src="images/Enabled.png"
+        class="mobile-menu-toggler"
+        alt="mobile-menu-toggler"
+      />
+      <ul class="mobile-menu-items">
+        <li><a href="#show-program">Program</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+
+      <div class="decorator-wrapper">
+        <div class="bottom-decorator"></div>
+      </div>
+    </div>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="show-menu">
         <div class="hero-section-wrapper">
           <div class="secondary hero-big">
             <p>"Hello Sharing World"</p>
@@ -71,7 +86,7 @@
           </div>
         </div>
       </section>
-      <section class="main-program">
+      <section class="main-program" id="show-program">
         <h2>Main program</h2>
         <div class="divider-container">
           <div class="divider"></div>
@@ -126,7 +141,40 @@
           </div>
         </div>
       </section>
-      <section class="grid-container"></section>
+      <div class="speakers-wrapper">
+        <h2>Featured Speakers</h2>
+        <div class="speaker-liner-container">
+          <div class="speaker-liner"></div>
+        </div>
+        <section class="grid-container"></section>
+        <button><img src="images/more-btn.svg" alt="" /></button>
+      </div>
+      <section class="partners-section">
+        <div class="partner-title-wrapper">
+          <h3>Partner</h3>
+          <div class="partner-underline-container">
+            <div class="partner-underline-item"></div>
+          </div>
+        </div>
+        <div class="main-partner-wrapper">
+          <div class="partners-wrapper">
+            <img src="images/mozilla.svg" alt="mozilla" />
+            <img src="images/googlekorea.svg" alt="google" />
+            <img src="images/naver.svg" alt="naver" />
+            <img src="images/daumkakaologo.svg" alt="daum" />
+            <img src="images/airbnb.svg" alt="airbnb" />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer-section">
+      <img src="images/FIR-logo.png" alt="" />
+      <div class="footer-mini">
+        <p class="copyright">2023 Fuller In Residence. Some Rights Reserved.</p>
+        <p class="address">Demistifying technology and innovation</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
