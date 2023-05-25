@@ -219,6 +219,10 @@ body {
   justify-content: center;
 }
 
+.missing-link {
+  display: none;
+}
+
 .call-to-action {
   background: #ec5242;
   width: 75%;
@@ -488,5 +492,15 @@ body {
 
   .footer-section > img {
     width: 200px;
+  }
+
+  .missing-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .missing-link > h3 {
+    border-bottom: 2px solid white;
   }
 }
