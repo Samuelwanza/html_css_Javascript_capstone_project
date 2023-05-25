@@ -25,6 +25,10 @@ body {
   margin-right: 28vw;
 }
 
+.main-header > a {
+  display: none;
+}
+
 .bar-line {
   width: 30px;
   height: 3px;
@@ -317,6 +321,10 @@ body {
 
   .main-header {
     margin-right: 18vw;
+  }
+
+  .main-header > a {
+    display: block;
   }
 
   .bar {
