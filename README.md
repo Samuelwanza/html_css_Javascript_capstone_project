@@ -20,9 +20,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio project <a name="about-project"></a>
+# 📖 Fullwe in Residence <a name="about-project"></a>
 
-Portfolio Project a final mobile version of a portfolio website. It includes the project setup and the header section of the mobile version
+Fuller in Residence is a website with intends to assist innovators in the prototyping phases of their business. This is the complete platform, both mobile and desktop
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,23 +30,22 @@ Portfolio Project a final mobile version of a portfolio website. It includes the
 
 <details>
   <summary>Client</summary>
-  <p>This project is implemented in html5 and css3</p>
+  <p>This project is implemented in html5 and css3 and Javascript</p>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 Describe between 1-3 key features of the application.
 
-- **[Introductionsection]**
-- **[Projects]**
-- **[Testimonials]**
+- **[ProgramSection]**
+- **[Partners]**
+- **[PreviousSummits]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [live Project](https://samuelwanza.github.io/)
-[Recording](https://www.loom.com/share/34ff3442537b4cee8f00ddc30a4409ee)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
